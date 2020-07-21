@@ -2,7 +2,7 @@
     <Info>Information about the installed software</Info>
       <Product>PhotonOS Appliance</Product>
       <Vendor>xmsoft</Vendor>
-      <Version>{{VERSION}}</Version>
+      <Version>0.1.0</Version>
       <ProductUrl>https://github.com/mdhemmi/photonos-appliance</ProductUrl>
       <VendorUrl>https://www.xmsoft.de/</VendorUrl>
       <Category>Networking</Category>

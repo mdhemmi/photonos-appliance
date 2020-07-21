@@ -12,9 +12,7 @@ tdnf -y update
 
 echo '> Installing Additional Packages...'
 tdnf install -y \
-  less \
   logrotate \
-  curl \
   wget \
   unzip \
   awk \

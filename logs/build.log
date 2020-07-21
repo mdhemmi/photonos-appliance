@@ -1,0 +1,741 @@
+2020/07/21 12:44:37 [INFO] Packer version: 1.6.0 [go1.13.12 linux amd64]
+2020/07/21 12:44:37 Checking 'PACKER_CONFIG' for a config file path
+2020/07/21 12:44:37 'PACKER_CONFIG' not set; checking the default config file path
+2020/07/21 12:44:37 Attempting to open config file: /root/.packerconfig
+2020/07/21 12:44:37 [WARN] Config file doesn't exist: /root/.packerconfig
+2020/07/21 12:44:37 Setting cache directory: /root/photonos-appliance/packer_cache
+2020/07/21 12:44:37 Creating plugin client for path: /usr/local/bin/packer
+2020/07/21 12:44:37 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-builder-vsphere-iso"}
+2020/07/21 12:44:37 Waiting for RPC address for: /usr/local/bin/packer
+2020/07/21 12:44:37 packer-builder-vsphere-iso plugin: [INFO] Packer version: 1.6.0 [go1.13.12 linux amd64]
+2020/07/21 12:44:37 packer-builder-vsphere-iso plugin: Checking 'PACKER_CONFIG' for a config file path
+2020/07/21 12:44:37 packer-builder-vsphere-iso plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2020/07/21 12:44:37 packer-builder-vsphere-iso plugin: Attempting to open config file: /root/.packerconfig
+2020/07/21 12:44:37 packer-builder-vsphere-iso plugin: [WARN] Config file doesn't exist: /root/.packerconfig
+2020/07/21 12:44:37 packer-builder-vsphere-iso plugin: Setting cache directory: /root/photonos-appliance/packer_cache
+2020/07/21 12:44:37 packer-builder-vsphere-iso plugin: args: []string{"packer-builder-vsphere-iso"}
+2020/07/21 12:44:37 packer-builder-vsphere-iso plugin: Plugin address: unix /tmp/packer-plugin153252754
+2020/07/21 12:44:37 packer-builder-vsphere-iso plugin: Waiting for connection...
+2020/07/21 12:44:37 Received unix RPC address for /usr/local/bin/packer: addr is /tmp/packer-plugin153252754
+2020/07/21 12:44:37 packer-builder-vsphere-iso plugin: Serving a plugin connection...
+2020/07/21 12:44:37 Creating plugin client for path: /usr/local/bin/packer
+2020/07/21 12:44:37 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-provisioner-shell"}
+2020/07/21 12:44:37 Waiting for RPC address for: /usr/local/bin/packer
+2020/07/21 12:44:37 Received unix RPC address for /usr/local/bin/packer: addr is /tmp/packer-plugin150720193
+2020/07/21 12:44:37 packer-provisioner-shell plugin: [INFO] Packer version: 1.6.0 [go1.13.12 linux amd64]
+2020/07/21 12:44:37 packer-provisioner-shell plugin: Checking 'PACKER_CONFIG' for a config file path
+2020/07/21 12:44:37 packer-provisioner-shell plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2020/07/21 12:44:37 packer-provisioner-shell plugin: Attempting to open config file: /root/.packerconfig
+2020/07/21 12:44:37 packer-provisioner-shell plugin: [WARN] Config file doesn't exist: /root/.packerconfig
+2020/07/21 12:44:37 packer-provisioner-shell plugin: Setting cache directory: /root/photonos-appliance/packer_cache
+2020/07/21 12:44:37 packer-provisioner-shell plugin: args: []string{"packer-provisioner-shell"}
+2020/07/21 12:44:37 packer-provisioner-shell plugin: Plugin address: unix /tmp/packer-plugin150720193
+2020/07/21 12:44:37 packer-provisioner-shell plugin: Waiting for connection...
+2020/07/21 12:44:37 packer-provisioner-shell plugin: Serving a plugin connection...
+2020/07/21 12:44:37 Creating plugin client for path: /usr/local/bin/packer
+2020/07/21 12:44:37 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-provisioner-file"}
+2020/07/21 12:44:37 Waiting for RPC address for: /usr/local/bin/packer
+2020/07/21 12:44:37 packer-provisioner-file plugin: [INFO] Packer version: 1.6.0 [go1.13.12 linux amd64]
+2020/07/21 12:44:37 packer-provisioner-file plugin: Checking 'PACKER_CONFIG' for a config file path
+2020/07/21 12:44:37 packer-provisioner-file plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2020/07/21 12:44:37 packer-provisioner-file plugin: Attempting to open config file: /root/.packerconfig
+2020/07/21 12:44:37 packer-provisioner-file plugin: [WARN] Config file doesn't exist: /root/.packerconfig
+2020/07/21 12:44:37 packer-provisioner-file plugin: Setting cache directory: /root/photonos-appliance/packer_cache
+2020/07/21 12:44:37 packer-provisioner-file plugin: args: []string{"packer-provisioner-file"}
+2020/07/21 12:44:37 packer-provisioner-file plugin: Plugin address: unix /tmp/packer-plugin959066785
+2020/07/21 12:44:37 Received unix RPC address for /usr/local/bin/packer: addr is /tmp/packer-plugin959066785
+2020/07/21 12:44:37 packer-provisioner-file plugin: Waiting for connection...
+2020/07/21 12:44:37 packer-provisioner-file plugin: Serving a plugin connection...
+2020/07/21 12:44:37 Creating plugin client for path: /usr/local/bin/packer
+2020/07/21 12:44:37 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-provisioner-file"}
+2020/07/21 12:44:37 Waiting for RPC address for: /usr/local/bin/packer
+2020/07/21 12:44:37 packer-provisioner-file plugin: [INFO] Packer version: 1.6.0 [go1.13.12 linux amd64]
+2020/07/21 12:44:37 packer-provisioner-file plugin: Checking 'PACKER_CONFIG' for a config file path
+2020/07/21 12:44:37 packer-provisioner-file plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2020/07/21 12:44:37 packer-provisioner-file plugin: Attempting to open config file: /root/.packerconfig
+2020/07/21 12:44:37 packer-provisioner-file plugin: [WARN] Config file doesn't exist: /root/.packerconfig
+2020/07/21 12:44:37 packer-provisioner-file plugin: Setting cache directory: /root/photonos-appliance/packer_cache
+2020/07/21 12:44:37 packer-provisioner-file plugin: args: []string{"packer-provisioner-file"}
+2020/07/21 12:44:37 packer-provisioner-file plugin: Plugin address: unix /tmp/packer-plugin668692261
+2020/07/21 12:44:37 Received unix RPC address for /usr/local/bin/packer: addr is /tmp/packer-plugin668692261
+2020/07/21 12:44:37 packer-provisioner-file plugin: Waiting for connection...
+2020/07/21 12:44:37 packer-provisioner-file plugin: Serving a plugin connection...
+2020/07/21 12:44:37 Creating plugin client for path: /usr/local/bin/packer
+2020/07/21 12:44:37 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-post-processor-shell-local"}
+2020/07/21 12:44:37 Waiting for RPC address for: /usr/local/bin/packer
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: [INFO] Packer version: 1.6.0 [go1.13.12 linux amd64]
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Checking 'PACKER_CONFIG' for a config file path
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Attempting to open config file: /root/.packerconfig
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: [WARN] Config file doesn't exist: /root/.packerconfig
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Setting cache directory: /root/photonos-appliance/packer_cache
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: args: []string{"packer-post-processor-shell-local"}
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Plugin address: unix /tmp/packer-plugin500577097
+2020/07/21 12:44:37 Received unix RPC address for /usr/local/bin/packer: addr is /tmp/packer-plugin500577097
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Waiting for connection...
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Serving a plugin connection...
+2020/07/21 12:44:37 Creating plugin client for path: /usr/local/bin/packer
+2020/07/21 12:44:37 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-post-processor-shell-local"}
+2020/07/21 12:44:37 Waiting for RPC address for: /usr/local/bin/packer
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: [INFO] Packer version: 1.6.0 [go1.13.12 linux amd64]
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Checking 'PACKER_CONFIG' for a config file path
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Attempting to open config file: /root/.packerconfig
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: [WARN] Config file doesn't exist: /root/.packerconfig
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Setting cache directory: /root/photonos-appliance/packer_cache
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: args: []string{"packer-post-processor-shell-local"}
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Plugin address: unix /tmp/packer-plugin801397082
+2020/07/21 12:44:37 Received unix RPC address for /usr/local/bin/packer: addr is /tmp/packer-plugin801397082
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Waiting for connection...
+2020/07/21 12:44:37 packer-post-processor-shell-local plugin: Serving a plugin connection...
+2020/07/21 12:44:37 Preparing build: vsphere-iso
+2020/07/21 12:44:37 ui: [1;32mvsphere-iso: output will be in this color.[0m
+2020/07/21 12:44:37 ui: 
+2020/07/21 12:44:37 Build debug mode: false
+2020/07/21 12:44:37 Force build: false
+2020/07/21 12:44:37 On error: 
+2020/07/21 12:44:37 Waiting on builds to complete...
+2020/07/21 12:44:37 Starting build run: vsphere-iso
+2020/07/21 12:44:37 Running builder: vsphere-iso
+2020/07/21 12:44:37 [INFO] (telemetry) Starting builder vsphere-iso
+2020/07/21 12:44:38 ui: [1;32m==> vsphere-iso: Retrieving ISO[0m
+2020/07/21 12:44:38 ui: [1;32m==> vsphere-iso: Trying https://packages.vmware.com/photon/3.0/Rev2/iso/Update2/photon-minimal-3.0-a0f216d.iso[0m
+2020/07/21 12:44:38 packer-builder-vsphere-iso plugin: Acquiring lock for: https://packages.vmware.com/photon/3.0/Rev2/iso/Update2/photon-minimal-3.0-a0f216d.iso?checksum=sha1%3Aa5acf94d564f63a174a9de200e04ab6cfe2451f2 (/root/photonos-appliance/packer_cache/0f713d2a7cb339b85f0c0a9c561da87df79e5d8a.iso.lock)
+2020/07/21 12:44:38 ui: [1;32m==> vsphere-iso: Trying https://packages.vmware.com/photon/3.0/Rev2/iso/Update2/photon-minimal-3.0-a0f216d.iso?checksum=sha1%3Aa5acf94d564f63a174a9de200e04ab6cfe2451f2[0m
+2020/07/21 12:44:38 ui: [1;32m==> vsphere-iso: https://packages.vmware.com/photon/3.0/Rev2/iso/Update2/photon-minimal-3.0-a0f216d.iso?checksum=sha1%3Aa5acf94d564f63a174a9de200e04ab6cfe2451f2 => /root/photonos-appliance/packer_cache/0f713d2a7cb339b85f0c0a9c561da87df79e5d8a.iso[0m
+2020/07/21 12:44:38 packer-builder-vsphere-iso plugin: Leaving retrieve loop for ISO
+2020/07/21 12:44:38 ui: [1;32m==> vsphere-iso: Uploading 0f713d2a7cb339b85f0c0a9c561da87df79e5d8a.iso to packer_cache/0f713d2a7cb339b85f0c0a9c561da87df79e5d8a.iso[0m
+2020/07/21 12:44:38 ui: [1;32m==> vsphere-iso: File already uploaded; continuing[0m
+2020/07/21 12:44:38 ui: [1;32m==> vsphere-iso: Creating VM...[0m
+2020/07/21 12:44:39 ui: [1;32m==> vsphere-iso: Customizing hardware...[0m
+2020/07/21 12:44:39 ui: [1;32m==> vsphere-iso: Mounting ISO images...[0m
+2020/07/21 12:44:39 packer-builder-vsphere-iso plugin: Creating CD-ROM on controller '&{{{} 200 0xc0007fc7e0 <nil> <nil> <nil> 0 <nil>} 0 []}' with iso '[vmware01] packer_cache//0f713d2a7cb339b85f0c0a9c561da87df79e5d8a.iso'
+2020/07/21 12:44:40 packer-builder-vsphere-iso plugin: No floppy files specified. Floppy disk will not be made.
+2020/07/21 12:44:40 packer-builder-vsphere-iso plugin: Found available port: 8297 on IP: 0.0.0.0
+2020/07/21 12:44:40 ui: [1;32m==> vsphere-iso: Starting HTTP server on port 8297[0m
+2020/07/21 12:44:40 ui: [1;32m==> vsphere-iso: Set boot order temporary...[0m
+2020/07/21 12:44:40 ui: [1;32m==> vsphere-iso: Power on VM...[0m
+2020/07/21 12:44:41 ui: [1;32m==> vsphere-iso: Waiting 10s for boot...[0m
+2020/07/21 12:44:51 ui: [1;32m==> vsphere-iso: HTTP server is working at http://192.168.0.46:8297/[0m
+2020/07/21 12:44:51 ui: [1;32m==> vsphere-iso: Typing boot command...[0m
+2020/07/21 12:44:51 packer-builder-vsphere-iso plugin: Special code '<esc>' found, replacing with: CodeEscape
+2020/07/21 12:44:52 packer-builder-vsphere-iso plugin: Waiting 1 second
+2020/07/21 12:45:08 packer-builder-vsphere-iso plugin: Special code '<enter>' found, replacing with: CodeReturnEnter
+2020/07/21 12:45:08 packer-builder-vsphere-iso plugin: [INFO] Waiting for IP, up to total timeout: 30m0s, settle timeout: 2m0s
+2020/07/21 12:45:08 ui: [1;32m==> vsphere-iso: Waiting for IP...[0m
+2020/07/21 12:47:19 packer-builder-vsphere-iso plugin: VM IP aquired: 192.168.0.160
+2020/07/21 12:47:19 packer-builder-vsphere-iso plugin: VM IP is still the same: 192.168.0.160
+2020/07/21 12:47:49 packer-builder-vsphere-iso plugin: VM IP is still the same: 192.168.0.160
+2020/07/21 12:48:19 packer-builder-vsphere-iso plugin: VM IP is still the same: 192.168.0.160
+2020/07/21 12:48:49 packer-builder-vsphere-iso plugin: VM IP is still the same: 192.168.0.160
+2020/07/21 12:49:19 ui: [1;32m==> vsphere-iso: IP address: 192.168.0.160[0m
+2020/07/21 12:49:19 packer-builder-vsphere-iso plugin: VM IP is still the same: 192.168.0.160
+2020/07/21 12:49:19 packer-builder-vsphere-iso plugin: VM IP seems stable enough: 192.168.0.160
+2020/07/21 12:49:19 ui: [1;32m==> vsphere-iso: Using ssh communicator to connect: 192.168.0.160[0m
+2020/07/21 12:49:19 packer-builder-vsphere-iso plugin: [INFO] Waiting for SSH, up to timeout: 1h0m0s
+2020/07/21 12:49:19 ui: [1;32m==> vsphere-iso: Waiting for SSH to become available...[0m
+2020/07/21 12:49:19 packer-builder-vsphere-iso plugin: [INFO] Attempting SSH connection to 192.168.0.160:22...
+2020/07/21 12:49:19 packer-builder-vsphere-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/07/21 12:49:19 packer-builder-vsphere-iso plugin: [DEBUG] handshaking with SSH
+2020/07/21 12:49:21 packer-builder-vsphere-iso plugin: [DEBUG] handshake complete!
+2020/07/21 12:49:21 packer-builder-vsphere-iso plugin: [INFO] no local agent socket, will not connect agent
+2020/07/21 12:49:21 ui: [1;32m==> vsphere-iso: Connected to SSH![0m
+2020/07/21 12:49:21 packer-builder-vsphere-iso plugin: Running the provision hook
+2020/07/21 12:49:21 [INFO] (telemetry) Starting provisioner shell
+2020/07/21 12:49:22 ui: [1;32m==> vsphere-iso: Provisioning with shell script: scripts/photon-settings.sh[0m
+2020/07/21 12:49:22 packer-provisioner-shell plugin: Opening scripts/photon-settings.sh for reading
+2020/07/21 12:49:22 packer-provisioner-shell plugin: [INFO] 325 bytes written for 'uploadData'
+2020/07/21 12:49:22 [INFO] 325 bytes written for 'uploadData'
+2020/07/21 12:49:22 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:49:22 packer-builder-vsphere-iso plugin: [DEBUG] Starting remote scp process:  scp -vt /tmp
+2020/07/21 12:49:22 packer-builder-vsphere-iso plugin: [DEBUG] Started SCP session, beginning transfers...
+2020/07/21 12:49:22 packer-builder-vsphere-iso plugin: [DEBUG] Copying input data into temporary file so we can read the length
+2020/07/21 12:49:22 packer-builder-vsphere-iso plugin: [DEBUG] scp: Uploading script_1303.sh: perms=C0644 size=325
+2020/07/21 12:49:23 packer-builder-vsphere-iso plugin: [DEBUG] SCP session complete, closing stdin pipe.
+2020/07/21 12:49:23 packer-builder-vsphere-iso plugin: [DEBUG] Waiting for SSH session to complete.
+2020/07/21 12:49:23 packer-builder-vsphere-iso plugin: [DEBUG] scp stderr (length 31): Sink: C0644 325 script_1303.sh
+2020/07/21 12:49:23 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:49:23 packer-builder-vsphere-iso plugin: [DEBUG] starting remote command: chmod 0755 /tmp/script_1303.sh
+2020/07/21 12:49:23 [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:49:23 [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:49:23 packer-builder-vsphere-iso plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:49:23 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:49:23 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:49:23 packer-builder-vsphere-iso plugin: [DEBUG] starting remote command: chmod +x /tmp/script_1303.sh; PACKER_BUILDER_TYPE='vsphere-iso' PACKER_BUILD_NAME='vsphere-iso' PACKER_HTTP_ADDR='192.168.0.46:8297' PACKER_HTTP_IP='192.168.0.46' PACKER_HTTP_PORT='8297'  /tmp/script_1303.sh
+2020/07/21 12:49:23 ui error: [1;31m==> vsphere-iso: + echo '> Disable IPv6'[0m
+2020/07/21 12:49:23 ui: [0;32m    vsphere-iso: > Disable IPv6[0m
+2020/07/21 12:49:23 ui error: [1;31m==> vsphere-iso: + echo 'net.ipv6.conf.all.disable_ipv6 = 1'[0m
+2020/07/21 12:49:23 ui error: [1;31m==> vsphere-iso: + echo '> Applying latest Updates...'[0m
+2020/07/21 12:49:23 ui error: [1;31m==> vsphere-iso: + tdnf -y update[0m
+2020/07/21 12:49:23 ui: [0;32m    vsphere-iso: > Applying latest Updates...[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: Refreshing metadata for: 'VMware Photon Linux 3.0 (x86_64)'[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: Refreshing metadata for: 'VMware Photon Extras 3.0 (x86_64)'[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: Refreshing metadata for: 'VMware Photon Linux 3.0 (x86_64) Updates'[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: Installing:[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: runc                     x86_64       1.0.0.rc9-3.ph3  photon-updates  10.24M 10736765[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: containerd               x86_64       1.2.10-2.ph3     photon-updates  76.25M 79950751[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: libmetalink              x86_64       0.1.3-2.ph3      photon-updates  68.32k 69960[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: docker-engine            x86_64       19.03.10-1.ph3   photon-updates 102.22M 107181241[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: docker-cli               x86_64       19.03.10-1.ph3   photon-updates  81.87M 85846954[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: Total installed size: 270.64M 283785671[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: Upgrading:[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: which                    x86_64       2.21-6.ph3       photon-updates  33.49k 34291[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: vim                      x86_64       8.1.1365-2.ph3   photon-updates   2.61M 2736342[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: util-linux-libs          x86_64       2.32.1-3.ph3     photon-updates 723.08k 740432[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: util-linux               x86_64       2.32.1-3.ph3     photon-updates   5.27M 5528420[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: tdnf-cli-libs            x86_64       2.1.1-2.ph3      photon-updates  65.63k 67208[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: tdnf                     x86_64       2.1.1-2.ph3      photon-updates 264.55k 270896[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: systemd                  x86_64       239-27.ph3       photon-updates  20.20M 21181971[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: sudo                     x86_64       1.8.30-2.ph3     photon-updates   3.33M 3492347[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: sqlite-libs              x86_64       3.32.1-2.ph3     photon-updates   1.14M 1192352[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: shadow-tools             x86_64       4.6-5.ph3        photon-updates 162.42k 166320[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: shadow                   x86_64       4.6-5.ph3        photon-updates   1.82M 1904777[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: sed                      x86_64       4.5-2.ph3        photon-updates 113.48k 116199[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: rpm-libs                 x86_64       4.14.2-8.ph3     photon-updates 920.87k 942975[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: rpm                      x86_64       4.14.2-8.ph3     photon-updates 385.59k 394842[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: python3-deepmerge        noarch       0.0.5-2.ph3      photon-updates  25.92k 26547[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: python3-cryptography     x86_64       2.8-1.ph3        photon-updates   1.86M 1950943[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: python3-cffi             x86_64       1.11.5-4.ph3     photon-updates 752.96k 771026[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: python3-PyYAML           x86_64       3.13-5.ph3       photon-updates 621.89k 636814[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: python3-setuptools       noarch       3.7.5-4.ph3      photon-updates   1.61M 1692186[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: python3-xml              x86_64       3.7.5-4.ph3      photon-updates 335.36k 343410[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: python3-libs             x86_64       3.7.5-4.ph3      photon-updates  22.96M 24078830[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: python3                  x86_64       3.7.5-4.ph3      photon-updates   2.94M 3084334[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: procps-ng                x86_64       3.3.15-2.ph3     photon-updates   1.35M 1419571[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: photon-release           noarch       3.0-5.ph3        photon-updates 475.00b 475[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: pcre-libs                x86_64       8.44-1.ph3       photon-updates 279.61k 286320[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: openssl                  x86_64       1.0.2v-1.ph3     photon-updates   4.53M 4750641[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: openssh-server           x86_64       7.8p1-8.ph3      photon-updates 923.33k 945486[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: openssh-clients          x86_64       7.8p1-8.ph3      photon-updates   3.72M 3896130[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: openssh                  x86_64       7.8p1-8.ph3      photon-updates   0.00b 0[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: open-vm-tools            x86_64       11.1.0-3.ph3     photon-updates   2.27M 2375037[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: nss-libs                 x86_64       3.44-4.ph3       photon-updates   2.17M 2270728[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: nss                      x86_64       3.44-4.ph3       photon-updates   2.19M 2298787[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: net-tools                x86_64       1.60-12.ph3      photon-updates 569.69k 583364[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: ncurses-terminfo         x86_64       6.1-2.ph3        photon-updates   1.94M 2034823[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: ncurses-libs             x86_64       6.1-2.ph3        photon-updates 606.77k 621336[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: ncurses                  x86_64       6.1-2.ph3        photon-updates 357.89k 366475[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: linux                    x86_64       4.19.129-2.ph3   photon-updates  26.12M 27388343[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: libxml2                  x86_64       2.9.10-2.ph3     photon-updates   7.29M 7639869[0m
+2020/07/21 12:51:18 ui: [0;32m    vsphere-iso: libssh2                  x86_64       1.9.0-2.ph3      photon-updates 238.41k 244136[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: libsolv                  x86_64       0.6.35-3.ph3     photon-updates   1.07M 1124860[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: libselinux               x86_64       2.8-2.ph3        photon-updates 166.24k 170226[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: libmspack                x86_64       0.10.1alpha-1.ph3 photon-updates  79.80k 81720[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: libarchive               x86_64       3.3.3-5.ph3      photon-updates 804.34k 823648[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: iproute2                 x86_64       4.18.0-3.ph3     photon-updates   2.12M 2226678[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: initramfs                x86_64       2.0-5.ph3        photon-updates  50.00b 50[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: grep                     x86_64       3.1-3.ph3        photon-updates 241.50k 247301[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: glibc                    x86_64       2.28-7.ph3       photon-updates   8.79M 9220791[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: findutils                x86_64       4.6.0-6.ph3      photon-updates 518.64k 531090[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: file-libs                x86_64       5.38-2.ph3       photon-updates   5.70M 5974936[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: file                     x86_64       5.38-2.ph3       photon-updates  43.18k 44214[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: expat-libs               x86_64       2.2.9-2.ph3      photon-updates 205.41k 210336[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: expat                    x86_64       2.2.9-2.ph3      photon-updates  69.37k 71033[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: e2fsprogs-libs           x86_64       1.45.5-2.ph3     photon-updates  77.04k 78888[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: e2fsprogs                x86_64       1.45.5-2.ph3     photon-updates   2.04M 2134264[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: dracut                   x86_64       048-3.ph3        photon-updates 801.08k 820306[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: docker                   x86_64       19.03.10-1.ph3   photon-updates   0.00b 0[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: dhcp-libs                x86_64       4.3.5-7.ph3      photon-updates 264.25k 270588[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: dhcp-client              x86_64       4.3.5-7.ph3      photon-updates   2.52M 2642853[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: curl-libs                x86_64       7.61.1-7.ph3     photon-updates 528.70k 541384[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: curl                     x86_64       7.61.1-7.ph3     photon-updates 228.13k 233603[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: cpio                     x86_64       2.13-2.ph3       photon-updates 439.96k 450516[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: coreutils                x86_64       8.30-3.ph3       photon-updates   5.84M 6127774[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: cloud-init               noarch       19.4-2.ph3       photon-updates   4.08M 4280862[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: bzip2-libs               x86_64       1.0.8-2.ph3      photon-updates  74.31k 76096[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: bzip2                    x86_64       1.0.8-2.ph3      photon-updates 124.99k 127990[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: bash                     x86_64       4.4.18-2.ph3     photon-updates   3.16M 3315720[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: Total installed size: 162.41M 170302710[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: Downloading:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: Testing transaction[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: Running transaction[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: Installing/Updating: grep-3.1-3.ph3.x86_64[0m
+2020/07/21 12:53:29 ui: [0;32m    vsphere-iso: Installing/Updating: glibc-2.28-7.ph3.x86_64[0m
+2020/07/21 12:53:30 ui: [0;32m    vsphere-iso: Installing/Updating: ncurses-libs-6.1-2.ph3.x86_64[0m
+2020/07/21 12:53:30 ui: [0;32m    vsphere-iso: Installing/Updating: coreutils-8.30-3.ph3.x86_64[0m
+2020/07/21 12:53:30 ui: [0;32m    vsphere-iso: Installing/Updating: bash-4.4.18-2.ph3.x86_64[0m
+2020/07/21 12:53:31 ui: [0;32m    vsphere-iso: Installing/Updating: openssl-1.0.2v-1.ph3.x86_64[0m
+2020/07/21 12:53:31 ui: [0;32m    vsphere-iso: Installing/Updating: bzip2-libs-1.0.8-2.ph3.x86_64[0m
+2020/07/21 12:53:31 ui: [0;32m    vsphere-iso: Installing/Updating: expat-libs-2.2.9-2.ph3.x86_64[0m
+2020/07/21 12:53:31 ui: [0;32m    vsphere-iso: Installing/Updating: e2fsprogs-libs-1.45.5-2.ph3.x86_64[0m
+2020/07/21 12:53:31 ui: [0;32m    vsphere-iso: Installing/Updating: ncurses-6.1-2.ph3.x86_64[0m
+2020/07/21 12:53:31 ui: [0;32m    vsphere-iso: Installing/Updating: util-linux-libs-2.32.1-3.ph3.x86_64[0m
+2020/07/21 12:53:31 ui: [0;32m    vsphere-iso: Installing/Updating: systemd-239-27.ph3.x86_64[0m
+2020/07/21 12:53:34 ui error: [1;31m==> vsphere-iso: initramfs (re)generation triggerin 1 2 2.0-4.ph3[0m
+2020/07/21 12:53:34 ui: [0;32m    vsphere-iso: Installing/Updating: shadow-4.6-5.ph3.x86_64[0m
+2020/07/21 12:53:34 ui: [0;32m    vsphere-iso: Installing/Updating: shadow-tools-4.6-5.ph3.x86_64[0m
+2020/07/21 12:53:34 ui: [0;32m    vsphere-iso: Installing/Updating: openssh-clients-7.8p1-8.ph3.x86_64[0m
+2020/07/21 12:53:34 ui: [0;32m    vsphere-iso: Installing/Updating: expat-2.2.9-2.ph3.x86_64[0m
+2020/07/21 12:53:34 ui: [0;32m    vsphere-iso: Installing/Updating: libmetalink-0.1.3-2.ph3.x86_64[0m
+2020/07/21 12:53:34 ui: [0;32m    vsphere-iso: Installing/Updating: libssh2-1.9.0-2.ph3.x86_64[0m
+2020/07/21 12:53:34 ui: [0;32m    vsphere-iso: Installing/Updating: curl-libs-7.61.1-7.ph3.x86_64[0m
+2020/07/21 12:53:34 ui: [0;32m    vsphere-iso: Installing/Updating: sqlite-libs-3.32.1-2.ph3.x86_64[0m
+2020/07/21 12:53:34 ui: [0;32m    vsphere-iso: Installing/Updating: python3-3.7.5-4.ph3.x86_64[0m
+2020/07/21 12:53:34 ui: [0;32m    vsphere-iso: Installing/Updating: python3-libs-3.7.5-4.ph3.x86_64[0m
+2020/07/21 12:53:35 ui: [0;32m    vsphere-iso: Installing/Updating: nss-libs-3.44-4.ph3.x86_64[0m
+2020/07/21 12:53:35 ui: [0;32m    vsphere-iso: Installing/Updating: rpm-libs-4.14.2-8.ph3.x86_64[0m
+2020/07/21 12:53:35 ui: [0;32m    vsphere-iso: Installing/Updating: pcre-libs-8.44-1.ph3.x86_64[0m
+2020/07/21 12:53:35 ui: [0;32m    vsphere-iso: Installing/Updating: python3-deepmerge-0.0.5-2.ph3.noarch[0m
+2020/07/21 12:53:35 ui: [0;32m    vsphere-iso: Installing/Updating: python3-cffi-1.11.5-4.ph3.x86_64[0m
+2020/07/21 12:53:35 ui: [0;32m    vsphere-iso: Installing/Updating: python3-PyYAML-3.13-5.ph3.x86_64[0m
+2020/07/21 12:53:35 ui: [0;32m    vsphere-iso: Installing/Updating: python3-xml-3.7.5-4.ph3.x86_64[0m
+2020/07/21 12:53:35 ui: [0;32m    vsphere-iso: Installing/Updating: python3-setuptools-3.7.5-4.ph3.noarch[0m
+2020/07/21 12:53:36 ui: [0;32m    vsphere-iso: Installing/Updating: curl-7.61.1-7.ph3.x86_64[0m
+2020/07/21 12:53:36 ui: [0;32m    vsphere-iso: Installing/Updating: util-linux-2.32.1-3.ph3.x86_64[0m
+2020/07/21 12:53:36 ui: [0;32m    vsphere-iso: Installing/Updating: ncurses-terminfo-6.1-2.ph3.x86_64[0m
+2020/07/21 12:53:37 ui: [0;32m    vsphere-iso: Installing/Updating: openssh-server-7.8p1-8.ph3.x86_64[0m
+2020/07/21 12:53:37 ui: [0;32m    vsphere-iso: Installing/Updating: libsolv-0.6.35-3.ph3.x86_64[0m
+2020/07/21 12:53:37 ui: [0;32m    vsphere-iso: Installing/Updating: libarchive-3.3.3-5.ph3.x86_64[0m
+2020/07/21 12:53:37 ui: [0;32m    vsphere-iso: Installing/Updating: file-libs-5.38-2.ph3.x86_64[0m
+2020/07/21 12:53:37 ui: [0;32m    vsphere-iso: Installing/Updating: tdnf-cli-libs-2.1.1-2.ph3.x86_64[0m
+2020/07/21 12:53:37 ui: [0;32m    vsphere-iso: Installing/Updating: libxml2-2.9.10-2.ph3.x86_64[0m
+2020/07/21 12:53:38 ui: [0;32m    vsphere-iso: Installing/Updating: findutils-4.6.0-6.ph3.x86_64[0m
+2020/07/21 12:53:38 ui: [0;32m    vsphere-iso: Installing/Updating: runc-1.0.0.rc9-3.ph3.x86_64[0m
+2020/07/21 12:53:38 ui: [0;32m    vsphere-iso: Installing/Updating: containerd-1.2.10-2.ph3.x86_64[0m
+2020/07/21 12:53:40 ui: [0;32m    vsphere-iso: Installing/Updating: docker-engine-19.03.10-1.ph3.x86_64[0m
+2020/07/21 12:53:46 ui: [0;32m    vsphere-iso: Installing/Updating: docker-cli-19.03.10-1.ph3.x86_64[0m
+2020/07/21 12:53:49 ui: [0;32m    vsphere-iso: Installing/Updating: which-2.21-6.ph3.x86_64[0m
+2020/07/21 12:53:49 ui: [0;32m    vsphere-iso: Installing/Updating: sed-4.5-2.ph3.x86_64[0m
+2020/07/21 12:53:49 ui: [0;32m    vsphere-iso: Installing/Updating: net-tools-1.60-12.ph3.x86_64[0m
+2020/07/21 12:53:49 ui: [0;32m    vsphere-iso: Installing/Updating: libmspack-0.10.1alpha-1.ph3.x86_64[0m
+2020/07/21 12:53:49 ui: [0;32m    vsphere-iso: Installing/Updating: dhcp-libs-4.3.5-7.ph3.x86_64[0m
+2020/07/21 12:53:49 ui: [0;32m    vsphere-iso: Installing/Updating: dhcp-client-4.3.5-7.ph3.x86_64[0m
+2020/07/21 12:53:49 ui: [0;32m    vsphere-iso: Installing/Updating: cpio-2.13-2.ph3.x86_64[0m
+2020/07/21 12:53:50 ui: [0;32m    vsphere-iso: Installing/Updating: dracut-048-3.ph3.x86_64[0m
+2020/07/21 12:53:50 ui: [0;32m    vsphere-iso: Installing/Updating: initramfs-2.0-5.ph3.x86_64[0m
+2020/07/21 12:53:50 ui error: [1;31m==> vsphere-iso: initrd generation of kernel 4.19.79-2.ph3 will be triggered later[0m
+2020/07/21 12:53:50 ui: [0;32m    vsphere-iso: Installing/Updating: cloud-init-19.4-2.ph3.noarch[0m
+2020/07/21 12:53:51 ui: [0;32m    vsphere-iso: Installing/Updating: open-vm-tools-11.1.0-3.ph3.x86_64[0m
+2020/07/21 12:53:51 ui: [0;32m    vsphere-iso: Installing/Updating: docker-19.03.10-1.ph3.x86_64[0m
+2020/07/21 12:53:51 ui: [0;32m    vsphere-iso: Installing/Updating: tdnf-2.1.1-2.ph3.x86_64[0m
+2020/07/21 12:53:51 ui error: [1;31m==> vsphere-iso: detected upgrade of tdnf, daemon-reload[0m
+2020/07/21 12:53:51 ui: [0;32m    vsphere-iso: Installing/Updating: file-5.38-2.ph3.x86_64[0m
+2020/07/21 12:53:51 ui: [0;32m    vsphere-iso: Installing/Updating: rpm-4.14.2-8.ph3.x86_64[0m
+2020/07/21 12:53:52 ui: [0;32m    vsphere-iso: Installing/Updating: openssh-7.8p1-8.ph3.x86_64[0m
+2020/07/21 12:53:52 ui: [0;32m    vsphere-iso: Installing/Updating: python3-cryptography-2.8-1.ph3.x86_64[0m
+2020/07/21 12:53:52 ui: [0;32m    vsphere-iso: Installing/Updating: libselinux-2.8-2.ph3.x86_64[0m
+2020/07/21 12:53:52 ui: [0;32m    vsphere-iso: Installing/Updating: nss-3.44-4.ph3.x86_64[0m
+2020/07/21 12:53:52 ui: [0;32m    vsphere-iso: Installing/Updating: sudo-1.8.30-2.ph3.x86_64[0m
+2020/07/21 12:53:52 ui: [0;32m    vsphere-iso: Installing/Updating: e2fsprogs-1.45.5-2.ph3.x86_64[0m
+2020/07/21 12:53:52 ui: [0;32m    vsphere-iso: Installing/Updating: procps-ng-3.3.15-2.ph3.x86_64[0m
+2020/07/21 12:53:52 ui: [0;32m    vsphere-iso: Installing/Updating: bzip2-1.0.8-2.ph3.x86_64[0m
+2020/07/21 12:53:52 ui: [0;32m    vsphere-iso: Installing/Updating: vim-8.1.1365-2.ph3.x86_64[0m
+2020/07/21 12:53:52 ui: [0;32m    vsphere-iso: Installing/Updating: photon-release-3.0-5.ph3.noarch[0m
+2020/07/21 12:53:52 ui: [0;32m    vsphere-iso: Installing/Updating: linux-4.19.129-2.ph3.x86_64[0m
+2020/07/21 12:53:55 ui error: [1;31m==> vsphere-iso: initrd generation of kernel 4.19.129-2.ph3 will be triggered later[0m
+2020/07/21 12:53:55 ui: [0;32m    vsphere-iso: Installing/Updating: iproute2-4.18.0-3.ph3.x86_64[0m
+2020/07/21 12:53:55 ui: [0;32m    vsphere-iso: Removing: nss-3.44-3.ph3.x86_64[0m
+2020/07/21 12:53:55 ui: [0;32m    vsphere-iso: Removing: open-vm-tools-10.3.10-6.ph3.x86_64[0m
+2020/07/21 12:53:56 ui: [0;32m    vsphere-iso: Removing: e2fsprogs-1.44.3-3.ph3.x86_64[0m
+2020/07/21 12:53:56 ui: [0;32m    vsphere-iso: Removing: tdnf-2.0.0-11.ph3.x86_64[0m
+2020/07/21 12:53:56 ui: [0;32m    vsphere-iso: Removing: docker-18.06.2-6.ph3.x86_64[0m
+2020/07/21 12:53:56 ui: [0;32m    vsphere-iso: Removing: rpm-4.14.2-5.ph3.x86_64[0m
+2020/07/21 12:53:56 ui: [0;32m    vsphere-iso: Removing: sudo-1.8.23-2.ph3.x86_64[0m
+2020/07/21 12:53:56 ui: [0;32m    vsphere-iso: Removing: curl-7.61.1-5.ph3.x86_64[0m
+2020/07/21 12:53:56 ui: [0;32m    vsphere-iso: Removing: libxml2-2.9.9-1.ph3.x86_64[0m
+2020/07/21 12:53:56 ui: [0;32m    vsphere-iso: Removing: iproute2-4.18.0-2.ph3.x86_64[0m
+2020/07/21 12:53:56 ui: [0;32m    vsphere-iso: Removing: procps-ng-3.3.15-1.ph3.x86_64[0m
+2020/07/21 12:53:56 ui: [0;32m    vsphere-iso: Removing: cloud-init-19.1-3.ph3.noarch[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: curl-libs-7.61.1-5.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: libarchive-3.3.3-3.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: libselinux-2.8-1.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: python3-cryptography-2.3.1-1.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: vim-8.1.0388-5.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: python3-cffi-1.11.5-3.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: python3-xml-3.7.4-3.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: bzip2-1.0.8-1.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: libssh2-1.9.0-1.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: python3-PyYAML-3.13-3.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: net-tools-1.60-11.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: dhcp-client-4.3.5-6.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: tdnf-cli-libs-2.0.0-11.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: rpm-libs-4.14.2-5.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: nss-libs-3.44-3.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: libsolv-0.6.35-1.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: libmspack-0.7.1alpha-1.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: shadow-tools-4.6-4.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: pcre-libs-8.42-1.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: file-5.34-2.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: file-libs-5.34-2.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: which-2.21-5.ph3.x86_64[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: python3-deepmerge-0.0.5-1.ph3.noarch[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: python3-setuptools-3.7.4-3.ph3.noarch[0m
+2020/07/21 12:53:57 ui error: [1;31m==> vsphere-iso: initrd of kernel 4.19.79-2.ph3 removed[0m
+2020/07/21 12:53:57 ui error: [1;31m==> vsphere-iso: initrd of kernel 4.19.129-2.ph3 removed[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: initramfs-2.0-4.ph3.x86_64[0m
+2020/07/21 12:53:57 ui error: [1;31m==> vsphere-iso: initramfs 2.0-4.ph3 postun[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: dhcp-libs-4.3.5-6.ph3.x86_64[0m
+2020/07/21 12:53:57 ui error: [1;31m==> vsphere-iso: initrd of kernel 4.19.79-2.ph3 removed[0m
+2020/07/21 12:53:57 ui: [0;32m    vsphere-iso: Removing: linux-4.19.79-2.ph3.x86_64[0m
+2020/07/21 12:53:58 ui: [0;32m    vsphere-iso: Removing: openssh-7.8p1-5.ph3.x86_64[0m
+2020/07/21 12:53:58 ui: [0;32m    vsphere-iso: Removing: photon-release-3.0-3.ph3.noarch[0m
+2020/07/21 12:53:58 ui: [0;32m    vsphere-iso: Removing: python3-libs-3.7.4-3.ph3.x86_64[0m
+2020/07/21 12:53:58 ui: [0;32m    vsphere-iso: Removing: openssh-server-7.8p1-5.ph3.x86_64[0m
+2020/07/21 12:53:58 ui: [0;32m    vsphere-iso: Removing: python3-3.7.4-3.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: openssh-clients-7.8p1-5.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: dracut-048-2.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: util-linux-2.32-1.ph3.x86_64[0m
+2020/07/21 12:53:59 ui error: [1;31m==> vsphere-iso: initramfs (re)generation triggerun 1 1 2.0-5.ph3[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: systemd-239-15.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: util-linux-libs-2.32-1.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: openssl-1.0.2t-1.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: sqlite-libs-3.27.2-5.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: findutils-4.6.0-5.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: shadow-4.6-4.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: e2fsprogs-libs-1.44.3-3.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: expat-2.2.9-1.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: cpio-2.12-4.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: sed-4.5-1.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: expat-libs-2.2.9-1.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: bzip2-libs-1.0.8-1.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: ncurses-terminfo-6.1-1.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: ncurses-6.1-1.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: ncurses-libs-6.1-1.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: bash-4.4.18-1.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: coreutils-8.30-2.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: grep-3.1-2.ph3.x86_64[0m
+2020/07/21 12:53:59 ui: [0;32m    vsphere-iso: Removing: glibc-2.28-4.ph3.x86_64[0m
+2020/07/21 12:53:59 ui error: [1;31m==> vsphere-iso: initramfs 2.0-5.ph3 posttrans[0m
+2020/07/21 12:54:00 ui: [0;32m    vsphere-iso: Creating /boot/initrd.img-4.19.129-2.ph3[0m
+2020/07/21 12:54:11 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:54:11 ui: [0;32m    vsphere-iso: Complete![0m
+2020/07/21 12:54:11 ui: [0;32m    vsphere-iso: > Installing Additional Packages...[0m
+2020/07/21 12:54:11 ui error: [1;31m==> vsphere-iso: + echo '> Installing Additional Packages...'[0m
+2020/07/21 12:54:11 ui error: [1;31m==> vsphere-iso: + tdnf install -y less logrotate curl wget unzip awk tar[0m
+2020/07/21 12:54:11 ui error: [1;31m==> vsphere-iso: Package less is already installed.[0m
+2020/07/21 12:54:11 ui error: [1;31m==> vsphere-iso: Package curl is already installed.[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: [using capability match for 'awk'][0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: [using capability match for 'awk'][0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Installing:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: mpfr                     x86_64       4.0.1-2.ph3      photon-updates 507.21k 519384[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: tar                      x86_64       1.30-4.ph3       photon-updates   4.65M 4880464[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: gawk                     x86_64       4.2.1-1.ph3      photon         2.20M 2304491[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: unzip                    x86_64       6.0-15.ph3       photon-updates 274.45k 281033[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: wget                     x86_64       1.20.3-1.ph3     photon-updates   2.80M 2936976[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: logrotate                x86_64       3.14.0-1.ph3     photon        86.17k 88237[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Total installed size:  10.50M 11010585[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Downloading:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Testing transaction[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Running transaction[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Installing/Updating: mpfr-4.0.1-2.ph3.x86_64[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Installing/Updating: gawk-4.2.1-1.ph3.x86_64[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Installing/Updating: logrotate-3.14.0-1.ph3.x86_64[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Installing/Updating: wget-1.20.3-1.ph3.x86_64[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Installing/Updating: unzip-6.0-15.ph3.x86_64[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Installing/Updating: tar-1.30-4.ph3.x86_64[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso:[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Complete![0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: > Done[0m
+2020/07/21 12:54:37 [INFO] 13700 bytes written for 'stdout'
+2020/07/21 12:54:37 [INFO] 757 bytes written for 'stderr'
+2020/07/21 12:54:37 [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:54:37 [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:54:37 packer-provisioner-shell plugin: [INFO] 13700 bytes written for 'stdout'
+2020/07/21 12:54:37 packer-provisioner-shell plugin: [INFO] 757 bytes written for 'stderr'
+2020/07/21 12:54:37 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:54:37 ui error: [1;31m==> vsphere-iso: + echo '> Done'[0m
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] starting remote command: rm -f /tmp/script_1303.sh
+2020/07/21 12:54:37 [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:54:37 [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:54:37 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:54:37 ui: [1;32m==> vsphere-iso: Provisioning with shell script: scripts/photon-cleanup.sh[0m
+2020/07/21 12:54:37 packer-provisioner-shell plugin: Opening scripts/photon-cleanup.sh for reading
+2020/07/21 12:54:37 packer-provisioner-shell plugin: [INFO] 1203 bytes written for 'uploadData'
+2020/07/21 12:54:37 [INFO] 1203 bytes written for 'uploadData'
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] Starting remote scp process:  scp -vt /tmp
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] Started SCP session, beginning transfers...
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] Copying input data into temporary file so we can read the length
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] scp: Uploading script_1303.sh: perms=C0644 size=1203
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] SCP session complete, closing stdin pipe.
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] Waiting for SSH session to complete.
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] scp stderr (length 32): Sink: C0644 1203 script_1303.sh
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] starting remote command: chmod 0755 /tmp/script_1303.sh
+2020/07/21 12:54:37 [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:54:37 [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:54:37 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:54:37 packer-builder-vsphere-iso plugin: [DEBUG] starting remote command: chmod +x /tmp/script_1303.sh; PACKER_BUILDER_TYPE='vsphere-iso' PACKER_BUILD_NAME='vsphere-iso' PACKER_HTTP_ADDR='192.168.0.46:8297' PACKER_HTTP_IP='192.168.0.46' PACKER_HTTP_PORT='8297'  /tmp/script_1303.sh
+2020/07/21 12:54:37 ui error: [1;31m==> vsphere-iso: + echo '> Clearing tdnf cache...'[0m
+2020/07/21 12:54:37 ui error: [1;31m==> vsphere-iso: + tdnf clean all[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: > Clearing tdnf cache...[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Cleaning repos: photon-updates photon-extras photon[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: Cleaning up everything[0m
+2020/07/21 12:54:37 ui error: [1;31m==> vsphere-iso: + echo '> Removing Log files...'[0m
+2020/07/21 12:54:37 ui: [0;32m    vsphere-iso: > Removing Log files...[0m
+2020/07/21 12:54:37 ui error: [1;31m==> vsphere-iso: + cat /dev/null[0m
+2020/07/21 12:54:37 ui error: [1;31m==> vsphere-iso: + logrotate -f /etc/logrotate.conf[0m
+2020/07/21 12:54:37 ui error: [1;31m==> vsphere-iso: + find /var/log -type f -delete[0m
+2020/07/21 12:54:37 ui error: [1;31m==> vsphere-iso: + rm -rf /var/log/journal/faa896b6b2334445916593bf4d1afced /var/log/journal/log[0m
+2020/07/21 12:54:37 ui error: [1;31m==> vsphere-iso: + rm -f '/var/lib/dhcp/*'[0m
+2020/07/21 12:54:37 ui error: [1;31m==> vsphere-iso: + echo '> Zeroing device to make space...'[0m
+2020/07/21 12:54:38 ui error: [1;31m==> vsphere-iso: + dd if=/dev/zero of=/EMPTY bs=1M[0m
+2020/07/21 12:54:38 ui: [0;32m    vsphere-iso: > Zeroing device to make space...[0m
+2020/07/21 12:57:13 ui error: [1;31m==> vsphere-iso: dd: error writing '/EMPTY': No space left on device[0m
+2020/07/21 12:57:13 ui error: [1;31m==> vsphere-iso: 11375+0 records in[0m
+2020/07/21 12:57:13 ui error: [1;31m==> vsphere-iso: 11374+0 records out[0m
+2020/07/21 12:57:13 ui error: [1;31m==> vsphere-iso: 11927420928 bytes (12 GB, 11 GiB) copied, 155.89 s, 76.5 MB/s[0m
+2020/07/21 12:57:13 ui error: [1;31m==> vsphere-iso: + true[0m
+2020/07/21 12:57:13 ui error: [1;31m==> vsphere-iso: + sync[0m
+2020/07/21 12:57:14 ui error: [1;31m==> vsphere-iso: + sleep 1[0m
+2020/07/21 12:57:15 ui error: [1;31m==> vsphere-iso: + sync[0m
+2020/07/21 12:57:15 ui error: [1;31m==> vsphere-iso: + rm -f /EMPTY[0m
+2020/07/21 12:57:15 ui error: [1;31m==> vsphere-iso: + sync[0m
+2020/07/21 12:57:15 ui error: [1;31m==> vsphere-iso: + sleep 1[0m
+2020/07/21 12:57:16 ui error: [1;31m==> vsphere-iso: + sync[0m
+2020/07/21 12:57:16 ui error: [1;31m==> vsphere-iso: + echo '> Setting random root password...'[0m
+2020/07/21 12:57:16 ui: [0;32m    vsphere-iso: > Setting random root password...[0m
+2020/07/21 12:57:16 ui error: [1;31m==> vsphere-iso: ++ tr -dc _A-Z-a-z-0-9[0m
+2020/07/21 12:57:16 ui error: [1;31m==> vsphere-iso: ++ head -c32[0m
+2020/07/21 12:57:16 ui error: [1;31m==> vsphere-iso: ++ echo[0m
+2020/07/21 12:57:16 ui error: [1;31m==> vsphere-iso: + RANDOM_PASSWORD=3bHkwXa5ZvygoIZG_87GfE_WQArqmrSV[0m
+2020/07/21 12:57:16 ui error: [1;31m==> vsphere-iso: + /usr/sbin/chpasswd[0m
+2020/07/21 12:57:16 ui error: [1;31m==> vsphere-iso: + echo root:3bHkwXa5ZvygoIZG_87GfE_WQArqmrSV[0m
+2020/07/21 12:57:17 ui error: [1;31m==> vsphere-iso: BAD PASSWORD: it is too simplistic/systematic[0m
+2020/07/21 12:57:17 ui error: [1;31m==> vsphere-iso: + unset HISTFILE[0m
+2020/07/21 12:57:17 ui error: [1;31m==> vsphere-iso: + history -c[0m
+2020/07/21 12:57:17 ui error: [1;31m==> vsphere-iso: + rm -fr /root/.bash_history[0m
+2020/07/21 12:57:17 ui error: [1;31m==> vsphere-iso: + echo '> Done'[0m
+2020/07/21 12:57:17 ui: [0;32m    vsphere-iso: > Done[0m
+2020/07/21 12:57:17 [INFO] 199 bytes written for 'stdout'
+2020/07/21 12:57:17 [INFO] 898 bytes written for 'stderr'
+2020/07/21 12:57:17 [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:57:17 [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:57:17 packer-provisioner-shell plugin: [INFO] 898 bytes written for 'stderr'
+2020/07/21 12:57:17 packer-provisioner-shell plugin: [INFO] 199 bytes written for 'stdout'
+2020/07/21 12:57:17 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] starting remote command: rm -f /tmp/script_1303.sh
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:57:17 [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:57:17 [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:57:17 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] starting remote command: rm -f
+2020/07/21 12:57:17 [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:57:17 [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2020/07/21 12:57:17 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2020/07/21 12:57:17 [INFO] (telemetry) ending shell
+2020/07/21 12:57:17 [INFO] (telemetry) Starting provisioner file
+2020/07/21 12:57:17 ui: [1;32m==> vsphere-iso: Uploading files/rc.local => /etc/rc.d/rc.local[0m
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:57:17 packer-provisioner-file plugin: [INFO] 126 bytes written for 'uploadData'
+2020/07/21 12:57:17 [INFO] 126 bytes written for 'uploadData'
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] Starting remote scp process:  scp -vt /etc/rc.d
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] Started SCP session, beginning transfers...
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] scp: Uploading rc.local: perms=C0755 size=126
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] SCP session complete, closing stdin pipe.
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] Waiting for SSH session to complete.
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] scp stderr (length 25): Sink: C0755 126 rc.local
+2020/07/21 12:57:17 packer-provisioner-file plugin: closing
+2020/07/21 12:57:17 closing
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: closing
+2020/07/21 12:57:17 [INFO] (telemetry) ending file
+2020/07/21 12:57:17 [INFO] (telemetry) Starting provisioner file
+2020/07/21 12:57:17 ui: [1;32m==> vsphere-iso: Uploading files/setup.sh => /root/setup.sh[0m
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:57:17 [INFO] 3420 bytes written for 'uploadData'
+2020/07/21 12:57:17 packer-provisioner-file plugin: [INFO] 3420 bytes written for 'uploadData'
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] Starting remote scp process:  scp -vt /root
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] Started SCP session, beginning transfers...
+2020/07/21 12:57:17 packer-builder-vsphere-iso plugin: [DEBUG] scp: Uploading setup.sh: perms=C0755 size=3420
+2020/07/21 12:57:18 packer-builder-vsphere-iso plugin: [DEBUG] SCP session complete, closing stdin pipe.
+2020/07/21 12:57:18 packer-builder-vsphere-iso plugin: [DEBUG] Waiting for SSH session to complete.
+2020/07/21 12:57:18 packer-builder-vsphere-iso plugin: [DEBUG] scp stderr (length 26): Sink: C0755 3420 setup.sh
+2020/07/21 12:57:18 packer-provisioner-file plugin: closing
+2020/07/21 12:57:18 closing
+2020/07/21 12:57:18 packer-builder-vsphere-iso plugin: closing
+2020/07/21 12:57:18 [INFO] (telemetry) ending file
+2020/07/21 12:57:18 ui: [1;32m==> vsphere-iso: Executing shutdown command...[0m
+2020/07/21 12:57:18 packer-builder-vsphere-iso plugin: Shutdown command: /sbin/shutdown -h now
+2020/07/21 12:57:18 packer-builder-vsphere-iso plugin: [DEBUG] Opening new ssh session
+2020/07/21 12:57:18 packer-builder-vsphere-iso plugin: [DEBUG] starting remote command: /sbin/shutdown -h now
+2020/07/21 12:57:18 packer-builder-vsphere-iso plugin: Waiting max 16m40s for shutdown to complete
+2020/07/21 12:57:18 packer-builder-vsphere-iso plugin: [ERROR] Remote command exited without exit status or exit signal.
+2020/07/21 12:57:30 ui: [1;32m==> vsphere-iso: Deleting Floppy drives...[0m
+2020/07/21 12:57:30 ui: [1;32m==> vsphere-iso: Eject CD-ROM drives...[0m
+2020/07/21 12:57:30 ui: [0;32m    vsphere-iso: Starting export...[0m
+2020/07/21 12:57:30 ui: [0;32m    vsphere-iso: Downloading: PhotonOS_Appliance-disk-0.vmdk[0m
+2020/07/21 13:02:26 ui: [0;32m    vsphere-iso: Exporting file: PhotonOS_Appliance-disk-0.vmdk[0m
+2020/07/21 13:02:26 ui: [0;32m    vsphere-iso: Writing ovf...[0m
+2020/07/21 13:02:26 ui: [0;32m    vsphere-iso: Creating manifest...[0m
+2020/07/21 13:02:26 ui: [0;32m    vsphere-iso: Finished exporting...[0m
+2020/07/21 13:02:26 ui: [1;32m==> vsphere-iso: Clear boot order...[0m
+2020/07/21 13:02:26 [INFO] (telemetry) ending vsphere-iso
+2020/07/21 13:02:26 ui: [1;32m==> vsphere-iso: Running post-processor: shell-local[0m
+2020/07/21 13:02:26 [INFO] (telemetry) Starting post-processor shell-local
+2020/07/21 13:02:26 packer-post-processor-shell-local plugin: [INFO] (shell-local): Prepending inline script with #!/bin/sh -e
+2020/07/21 13:02:26 ui: [1;32m==> vsphere-iso (shell-local): Running local shell script: /tmp/packer-shell119865364[0m
+2020/07/21 13:02:26 packer-post-processor-shell-local plugin: [INFO] (shell-local): starting local command: /bin/sh -c FINAL_PHOTON_APPLIANCE_NAME='PhotonOS_Appliance_0.1.0' PACKER_BUILDER_TYPE='vsphere-iso' PACKER_BUILD_NAME='vsphere-iso' PACKER_HTTP_ADDR='192.168.0.46:8297' PACKER_HTTP_IP='192.168.0.46' PACKER_HTTP_PORT='8297' PHOTON_APPLIANCE_NAME='PhotonOS_Appliance' PHOTON_OVF_TEMPLATE='photon.xml.template' PHOTON_VERSION='0.1.0'  /tmp/packer-shell119865364
+2020/07/21 13:02:26 packer-post-processor-shell-local plugin: [INFO] (shell-local communicator): Executing local shell command [/bin/sh -c FINAL_PHOTON_APPLIANCE_NAME='PhotonOS_Appliance_0.1.0' PACKER_BUILDER_TYPE='vsphere-iso' PACKER_BUILD_NAME='vsphere-iso' PACKER_HTTP_ADDR='192.168.0.46:8297' PACKER_HTTP_IP='192.168.0.46' PACKER_HTTP_PORT='8297' PHOTON_APPLIANCE_NAME='PhotonOS_Appliance' PHOTON_OVF_TEMPLATE='photon.xml.template' PHOTON_VERSION='0.1.0'  /tmp/packer-shell119865364]
+2020/07/21 13:02:29 ui: [0;32m    vsphere-iso (shell-local): Opening OVF source: ../output-vmware-iso/PhotonOS_Appliance.ovf[0m
+2020/07/21 13:02:29 ui: [0;32m    vsphere-iso (shell-local): Opening OVA target: ../output-vmware-iso/PhotonOS_Appliance_0.1.0.ova[0m
+2020/07/21 13:02:29 ui: [0;32m    vsphere-iso (shell-local): Writing OVA package: ../output-vmware-iso/PhotonOS_Appliance_0.1.0.ova[0m
+2020/07/21 13:02:43 ui: [0;32m    vsphere-iso (shell-local): Transfer Completed[0m
+2020/07/21 13:02:43 ui: [0;32m    vsphere-iso (shell-local): Warning:[0m
+2020/07/21 13:02:43 ui: [0;32m    vsphere-iso (shell-local):  - No manifest file found.[0m
+2020/07/21 13:02:43 ui: [0;32m    vsphere-iso (shell-local):  - Wrong file size specified in OVF descriptor for 'PhotonOS_Appliance-disk-0.vmdk' (specified: 12884901888, actual 238890496).[0m
+2020/07/21 13:02:43 ui: [0;32m    vsphere-iso (shell-local):  - No supported manifest(sha1, sha256, sha512) entry found for: 'PhotonOS_Appliance-disk-0.vmdk'.[0m
+2020/07/21 13:02:43 ui: [0;32m    vsphere-iso (shell-local): Completed successfully[0m
+2020/07/21 13:02:43 [INFO] (telemetry) ending shell-local
+2020/07/21 13:02:43 Flagging to keep original artifact from post-processor 'shell-local'
+2020/07/21 13:02:43 ui: [1;32m==> vsphere-iso: Running post-processor: shell-local[0m
+2020/07/21 13:02:43 [INFO] (telemetry) Starting post-processor shell-local
+2020/07/21 13:02:43 packer-post-processor-shell-local plugin: [INFO] (shell-local): Prepending inline script with #!/bin/sh -e
+2020/07/21 13:02:43 ui: [1;32m==> vsphere-iso (shell-local): Running local shell script: /tmp/packer-shell203660017[0m
+2020/07/21 13:02:43 packer-post-processor-shell-local plugin: [INFO] (shell-local): starting local command: /bin/sh -c PACKER_BUILDER_TYPE='vsphere-iso' PACKER_BUILD_NAME='vsphere-iso' PACKER_HTTP_ADDR='192.168.0.46:8297' PACKER_HTTP_IP='192.168.0.46' PACKER_HTTP_PORT='8297'  /tmp/packer-shell203660017
+2020/07/21 13:02:43 packer-post-processor-shell-local plugin: [INFO] (shell-local communicator): Executing local shell command [/bin/sh -c PACKER_BUILDER_TYPE='vsphere-iso' PACKER_BUILD_NAME='vsphere-iso' PACKER_HTTP_ADDR='192.168.0.46:8297' PACKER_HTTP_IP='192.168.0.46' PACKER_HTTP_PORT='8297'  /tmp/packer-shell203660017]
+2020/07/21 13:02:54 ui: [0;32m    vsphere-iso (shell-local):[0m
+2020/07/21 13:02:54 ui: [0;32m    vsphere-iso (shell-local): Scope    ProxyPolicy     DefaultVIServerMode InvalidCertificateAction  DisplayD[0m
+2020/07/21 13:02:54 ui: [0;32m    vsphere-iso (shell-local):                                                                        eprecati[0m
+2020/07/21 13:02:54 ui: [0;32m    vsphere-iso (shell-local):                                                                        onWarnin[0m
+2020/07/21 13:02:54 ui: [0;32m    vsphere-iso (shell-local):                                                                        gs[0m
+2020/07/21 13:02:54 ui: [0;32m    vsphere-iso (shell-local): -----    -----------     ------------------- ------------------------  --------[0m
+2020/07/21 13:02:54 ui: [0;32m    vsphere-iso (shell-local): Session  UseSystemProxy  Multiple            Ignore                    True[0m
+2020/07/21 13:02:54 ui: [0;32m    vsphere-iso (shell-local): User[0m
+2020/07/21 13:02:54 ui: [0;32m    vsphere-iso (shell-local): AllUsers[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local):[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): IsConnected   : True[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): Id            : /VIServer=vsphere.local\administrator@192.168.0.45:443/[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): ServiceUri    : https://192.168.0.45/sdk[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): SessionSecret : "419ea10bf2d5c329de320c05f1a38a2b4a1c440f"[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): Name          : 192.168.0.45[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): Port          : 443[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): SessionId     : "419ea10bf2d5c329de320c05f1a38a2b4a1c440f"[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): User          : VSPHERE.LOCAL\Administrator[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): Uid           : /VIServer=vsphere.local\administrator@192.168.0.45:443/[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): Version       : 7.0.0[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): Build         : 16189207[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): ProductLine   : vpx[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): InstanceUuid  : 7812e1cb-3055-4fa3-9659-d9cf4a577f29[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): RefCount      : 1[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local): ExtensionData : VMware.Vim.ServiceInstance[0m
+2020/07/21 13:02:59 ui: [0;32m    vsphere-iso (shell-local):[0m
+2020/07/21 13:03:00 ui: [0;32m    vsphere-iso (shell-local):[0m
+2020/07/21 13:03:00 [INFO] (telemetry) ending shell-local
+2020/07/21 13:03:00 ui: [1;32mBuild 'vsphere-iso' finished.[0m
+2020/07/21 13:03:00 ui: 
+==> Builds finished. The artifacts of successful builds are:
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact-count []string{"3"}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"0", "builder-id", "jetbrains.vsphere"}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"0", "id", "PhotonOS_Appliance"}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"0", "string", "PhotonOS_Appliance"}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"0", "files-count", "3"}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"0", "file", "0", "output-vmware-iso/PhotonOS_Appliance-disk-0.vmdk"}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"0", "file", "1", "output-vmware-iso/PhotonOS_Appliance.ovf"}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"0", "file", "2", "output-vmware-iso/PhotonOS_Appliance_0.1.0.ova"}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"0", "end"}
+2020/07/21 13:03:00 ui: --> vsphere-iso: PhotonOS_Appliance
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"1", "builder-id", ""}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"1", "id", ""}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"1", "string", ""}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"1", "files-count", "0"}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"1", "end"}
+2020/07/21 13:03:00 ui: --> vsphere-iso: 
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"2", "builder-id", ""}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"2", "id", ""}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"2", "string", ""}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"2", "files-count", "0"}
+2020/07/21 13:03:00 machine readable: vsphere-iso,artifact []string{"2", "end"}
+2020/07/21 13:03:00 ui: --> vsphere-iso: 
+2020/07/21 13:03:00 [INFO] (telemetry) Finalizing.
+2020/07/21 13:03:02 [WARN] (telemetry) Error finalizing report. This is safe to ignore. Post https://checkpoint-api.hashicorp.com/v1/telemetry/packer: context deadline exceeded
+2020/07/21 13:03:02 waiting for all plugin processes to complete...
+2020/07/21 13:03:02 /usr/local/bin/packer: plugin process exited
+2020/07/21 13:03:02 /usr/local/bin/packer: plugin process exited
+2020/07/21 13:03:02 /usr/local/bin/packer: plugin process exited
+2020/07/21 13:03:03 /usr/local/bin/packer: plugin process exited
+2020/07/21 13:03:03 /usr/local/bin/packer: plugin process exited
+2020/07/21 13:03:03 /usr/local/bin/packer: plugin process exited

@@ -1,7 +1,9 @@
-#!/bin/bash -x
+#!/bin/bash 
 
+export PACKER_LOG=1
+export PACKER_LOG_PATH="./logs/build.log"
 echo "Building PhotonOS OVA Appliance ..."
-rm -f output-vmware-iso/*.ova
+rm -f output-vmware-iso/*
 
 if [[ "$1" -gt "-1" ]] && [[ $1 == "dev" ]]; then
     echo "Applying packer build to photon-dev.json ..."

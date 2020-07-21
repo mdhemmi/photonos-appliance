@@ -11,7 +11,7 @@ Param(
     [Parameter(Position=4)]
     [string]$VMNAME
 )
-
+Set-PowerCLIConfiguration -InvalidCertificateAction ignore -Scope Session -confirm:$false 
 Connect-VIServer -Server "$VISERVER" -User "$VIUSERNAME" -Password "$VIPASSWORD"
 $vm = Get-VM "$VMNAME"
 $vm.ExtensionData.UnregisterVM()
