@@ -1,5 +1,19 @@
 # Reference for building PhotonOS Virtual Appliance (OVA) using Packer
 
+## Changes to the original version
+
+* Packer.io builder from vmware-iso to vsphere-iso
+
+### Changed files:
+
+* photon.json
+* photon.xml.template
+* photon.xml
+* photon-kickstart.json
+* photon-settings.sh
+* unregister_vm.ps1
+* add_ovf_properties.sh
+
 ## Requirements
 
 * MacOS or Linux Desktop
@@ -16,7 +30,7 @@ esxcli system settings advanced set -o /Net/GuestIPHack -i 1
 Step 1 - Clone the git repository
 
 ```
-git clone https://github.com/lamw/photonos-appliance.git
+git clone https://github.com/mdhemmi/photonos-appliance.git
 ```
 
 Step 2 - Edit the `photon-builder.json` file to configure the vSphere endpoint for building the PhotonOS appliance
